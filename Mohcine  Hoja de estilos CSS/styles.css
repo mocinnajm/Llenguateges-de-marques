@@ -1,0 +1,153 @@
+body { background-color:  #C0C0C0;
+    font-family: Arial;
+    line-height: 1.5em; /* cambiar el color fondo,la fuente*/
+    
+
+}
+h1{
+
+    color: grey;    
+    font-size: 2em;
+}                          /* cambiar color , tamaño* los elementos hy h2*/
+h2{
+    color:rgb(109, 84, 84);
+    font-size: 1.5em;         
+
+
+
+
+}
+p{  
+    font-size: 16px;
+                              /* cambiar el tamaño fuente de parrafos*/
+
+
+}
+a{
+    color:#007BFF;
+    text-decoration: none;
+    
+}
+  a:hover{                     /* modificaciones los vinculos (a) */
+    color:#6c757d;
+    text-decoration: underline;
+
+
+}
+ul{
+    all:unset;
+
+}
+li{
+    display:inline-block;
+}                                 /* cambios y modificaciones en los elementos de nav*/
+nav{
+    background-color: white;
+}
+
+nav ul li a {
+             padding: 10px;
+             margin: 20px;
+
+
+
+}
+header  {
+    border-bottom:1px solid rgb(21, 73, 43);
+    padding: 20px;                               /*cambios en  los estilos de la cabecera*/
+
+
+
+}
+footer{
+          text-align: center;    
+          padding: 10px;                    
+          border-top: #6c757d solid; /*cambios en  los estilos del pie de pagina*/
+
+
+}
+img{
+     max-height: 360px;
+     width: auto;           /*configurar las imagenes */
+     height: auto;
+
+}
+.container {
+    width: 80%; 
+    margin: 0 auto;       /* en los elemnetos de la clase container*/
+}
+.highlight{
+             background-color:orange;
+}
+button{
+    background-color: #007BFF;
+    color: white;
+    padding-top: 10px; 
+    padding-bottom: 10px;        /* aplicar cambios en button*/
+    padding-left: 20px; 
+    padding-right: 20px;
+}  
+button:hover  {
+             color: #0056b3;
+}
+input[type="text"]{
+    border:1px   solid lightgray;
+    padding: 5px;
+
+}
+input[type="text"]:focus{
+    border-color: #007BFF;
+    outline: none;
+
+}
+blockquote{
+    font-family: cursive;
+    margin: 20px;    /*Estilizar los elementos blockquote */
+}
+code{
+    font-family: monospace;
+    background-color:#e9ecef ;
+    padding-top: 2px;       /*Estilizar los elementos code*/
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}.hidden{
+    display: none;
+
+}.visble{
+    display: block;
+}table{
+    width: 100%;
+    border-collapse: collapse;
+
+
+}th td {
+    border:gray;
+    padding: 8px;                            /*Estilizar y cambiar y configurar elementos  (table)*/
+}
+th{
+    background-color: #C0C0C0;
+}.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}.float-left{
+        float: left;
+
+}.float-right{
+    float: right;
+}.text-center{
+    text-align: center;
+
+}.text-right{
+    text-align: right;
+}.uppercase{
+    text-transform: uppercase;  
+                                 /*convertir texto a mayusculas y viceversa*/
+
+}.lowercase{
+    text-transform: lowercase;
+}.capitalize{
+    text-transform: capitalize; /* Capitalizar elementos con la clase capitalie*/
+}
+
